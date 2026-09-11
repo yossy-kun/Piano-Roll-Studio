@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="description" content="ブラウザだけで使えるピアノロール中心の簡易DAW">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2372f2bd'/%3E%3Cstop offset='.52' stop-color='%237c8cff'/%3E%3Cstop offset='1' stop-color='%2372f2bd'/%3E%3C/linearGradient%3E%3Cmask id='m'%3E%3Crect width='64' height='64' fill='white'/%3E%3Crect x='14' y='14' width='36' height='36' rx='11' fill='black'/%3E%3C/mask%3E%3C/defs%3E%3Crect width='64' height='64' rx='19' fill='url(%23g)' mask='url(%23m)'/%3E%3C/svg%3E">
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="180x180" href="./apple-touch-icon.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=2">
   <meta name="apple-mobile-web-app-title" content="Piano Roll Studio">
   <title>Piano Roll Studio — Browser DAW</title>
   <style>
@@ -18,7 +18,7 @@
     button,input,select{font:inherit;color:inherit;touch-action:manipulation} button{border:0}
     button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
     .topbar{height:var(--top);display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line);background:#0d1016;box-shadow:0 8px 30px #0008;position:relative;z-index:4}
-    .brand{display:flex;align-items:center;gap:9px;min-width:180px;font-weight:780;letter-spacing:-.03em}.mark{width:29px;height:29px;border:1px solid #ffffff26;border-radius:9px;background:conic-gradient(from 220deg,var(--accent),var(--accent2),var(--accent));box-shadow:0 0 24px #72f2bd26;position:relative}.mark:after{content:"";position:absolute;inset:6px;border-radius:5px;background:#0d1016}
+    .brand{display:flex;align-items:center;gap:9px;min-width:180px;font-weight:780;letter-spacing:-.03em}.mark{width:29px;height:29px;flex:0 0 29px;background:url('./apple-touch-icon.png?v=2') center/contain no-repeat}
     .transport{display:flex;align-items:center;gap:5px}.iconbtn,.toolbtn,.mini,.pillbtn{height:36px;min-width:36px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);display:inline-flex;align-items:center;justify-content:center;gap:7px;cursor:pointer;transition:.15s ease}.iconbtn:hover,.toolbtn:hover,.mini:hover,.pillbtn:hover{border-color:#4a5267;background:#202531}.iconbtn.primary{background:var(--accent);color:#09120f;border-color:transparent}.iconbtn.active,.toolbtn.active{border-color:var(--accent);color:var(--accent);background:#72f2bd15}.iconbtn.danger{color:var(--danger)}
     svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
     .counter{min-width:166px;padding:5px 12px;border:1px solid var(--line);border-radius:8px;background:#080a0f;font-variant-numeric:tabular-nums}.counter strong{display:block;font-size:18px;line-height:1.05;letter-spacing:.07em}.counter span{font-size:11px;color:var(--muted)}
